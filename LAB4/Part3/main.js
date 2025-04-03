@@ -1,5 +1,10 @@
 // setup canvas
-
+/*
+Name: Aidan
+Date: April 3, 2025
+Description: Lab4 Part3 for Web MDN
+File: main.js
+*/
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 

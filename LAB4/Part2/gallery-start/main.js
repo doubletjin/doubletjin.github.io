@@ -1,3 +1,11 @@
+/*
+Name: Aidan
+Date: April 3, 2025
+Description: Lab4 Part2 for Web MDN
+File: main.js
+*/
+
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

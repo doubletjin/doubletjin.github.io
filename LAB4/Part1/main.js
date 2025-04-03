@@ -1,3 +1,12 @@
+/*
+Name: Aidan
+Date: April 3, 2025
+Description: Lab4 Part1 for Web MDN
+File: main.js
+*/
+
+
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
