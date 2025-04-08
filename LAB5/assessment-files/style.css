@@ -199,6 +199,44 @@ button {
   border: 0;
 }
 
+button.hover, button:focus {
+  background-color: white;
+}
+
+button:active{
+  background-color: #ccc;
+}
+
+.transcript-container {
+
+  width: 480px; 
+  margin: 10px;
+  border: 2px solid #081c15;
+  min-height: 38px;
+}
+
+.transcript {
+
+  width: 100%;
+  height: 36px;
+  background-color: #081c15;
+  color: white;
+}
+
+.transcript * {
+
+  width: 100%;
+  color: #081c15;
+}
+
+.transcript-container button {
+
+
+  width: 100%;
+  height: 36px;
+  background-color: #081c15;
+  color: white;
+}
 /* Comments styling */
 
 .comments {
