@@ -1,5 +1,12 @@
 // functionality for showing/hiding the comments section
+/*
 
+Name: Aidan Tjin
+Date: April 8, 2025
+Description: Lab5 for Web MDN
+File: index.html  
+  
+*/
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
 
@@ -34,6 +41,8 @@ function submitComment() {
   const commentPara = document.createElement('p');
   const nameValue = nameField.value;
   const commentValue = commentField.value;
+  const nameLabel = document.createElement('span');
+  const commentLabel = document.createElement('span');
 
   namePara.textContent = nameValue;
   commentPara.textContent = commentValue;
@@ -61,3 +70,19 @@ function toggleTranscript() {
     transcriptBtn.textContent = 'Show transcript';
   }
 };
+
+const commentBtn = document.querySelector(".show-hide")
+
+commentBtn.addEventListener("keydown", (e) => {
+  if(e.keyCode === 13) { // The Enter/Return key
+    document.activeElement.click();
+  }
+});
+
+
+const skipToContentLink = document.querySelector("#skip-to-content-link");
+
+skipToContentLink.addEventListener("focus", (e) => {
+  
+  skipToContentLink.classList.toggle("skip-to-content-link-visible");
+})
